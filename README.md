@@ -2,7 +2,7 @@
 
 ## Description
 
-This script filters FASTQ.gz files based on a list of valid barcodes. It is designed for Single-Cell data analysis using Drop-seq or 10X Chromium technology. Only reads containing a valid barcode will be retained.
+This script filters FASTQ.gz files based on a list of valid barcodes. Only reads containing a valid barcode will be retained.
 
 ## Prerequisites
 
@@ -14,8 +14,8 @@ This script filters FASTQ.gz files based on a list of valid barcodes. It is desi
 Clone this repository and navigate to the directory:
 
 ```bash
-git clone <repo-url>
-cd <repository-name>
+git clone https://github.com/maximelepetit/fastq_filter_by_barcode.git
+cd fastq_filter_by_barcode
 ```
 ## Usage 
 
